@@ -1,5 +1,5 @@
 {
-  "name": "webpack-rename-plugin",
+  "name": "rename-webpack-plugin",
   "version": "1.0.0",
   "description": "webpack plugin for rename output files.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dcatfly/webpack-rename-plugin.git"
+    "url": "git+https://github.com/Dcatfly/rename-webpack-plugin.git"
   },
   "keywords": [
     "plugin",
@@ -18,7 +18,7 @@
   "author": "dcatfly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Dcatfly/webpack-rename-plugin/issues"
+    "url": "https://github.com/Dcatfly/rename-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/Dcatfly/webpack-rename-plugin#readme"
+  "homepage": "https://github.com/Dcatfly/rename-webpack-plugin#readme"
 }
