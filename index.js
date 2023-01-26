@@ -4,9 +4,9 @@ module.exports = class Rename {
   }
 
   apply(compiler) {
-    compiler.hooks.compilation.tap("Rename.emit", (compilation) => {
+    compiler.hooks.compilation.tap('Rename.emit', (compilation) => {
       compilation.hooks.optimizeAssets.tapAsync(
-        "Rename.emit",
+        'Rename.emit',
         (assets, callback) => {
           // Modify assets object here
           const { originNameReg, targetName } = this.options;
